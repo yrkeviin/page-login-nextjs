@@ -8,9 +8,10 @@ export default function Home() {
             <div className={styles.container_login}>
                 <div className={styles.login}>
                     <h1>login</h1>
-                    <Input />
+                    <Input text="E-mail ou Nome de Usuário" tipo="text" />
+                    <Input text="Senha" tipo="password" />
                     <p><a href="/register">Não tem uma conta? Crie agora!</a></p>
-                    <Button />
+                    <Button text="Entrar" />
                 </div>
             </div>
         </div>

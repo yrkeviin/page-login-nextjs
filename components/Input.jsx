@@ -1,10 +1,9 @@
 import styles from "../styles/Input.module.css"
 
-export default function Input() {
+export default function Input({text, tipo}) {
     return (
         <div className={styles.login}>
-            <input placeholder="E-mail ou Nome de Usuário" type="text" />
-            <input placeholder="Senha" type="password" />
+            <input placeholder={text} type={tipo} />
         </div>
     )
 }
