@@ -9,7 +9,7 @@ export default function Home() {
                 <div className={styles.login}>
                     <h1>login</h1>
                     <Input />
-                    <p><a href="">Não tem uma conta? Crie agora!</a></p>
+                    <p><a href="/register">Não tem uma conta? Crie agora!</a></p>
                     <Button />
                 </div>
             </div>

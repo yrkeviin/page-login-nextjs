@@ -28,5 +28,10 @@
     border-radius: 10px;
 }
 
-
+.login p a {
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    justify-content: right;
+    text-decoration: none;
+}
 
