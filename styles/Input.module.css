@@ -1,9 +1,17 @@
 .login {
     display: flex;
     flex-direction: column;
+    width: 40%;
+    height: 20%;
+    border: 2px solid black;
 }
 
 .login input {
     background-color: transparent;
+    width: 100%;
+    height: 4vh;
+    margin-top: 2vh;
+    border: 2px solid #919191;
+    border-radius: 10px;
 }
 

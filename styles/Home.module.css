@@ -12,12 +12,15 @@
     height: 100%;
 }
 
-.login {
-    display: flex;
-    flex-direction: column;
-}
-
 .container_login {
     background-color: lightblue;
     width: 50%;
 }
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
