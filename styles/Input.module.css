@@ -1,0 +1,9 @@
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    background-color: transparent;
+}
+

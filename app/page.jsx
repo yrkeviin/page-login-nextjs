@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css"
-import styles from "../styles/Input.module.css"
+import Input from "../components/Input"
 
 export default function Home() {
     return (
@@ -11,9 +11,8 @@ export default function Home() {
             <div className={styles.container_login}>
                 <div className={styles.login}>
                     <h1>login</h1>
-                    <input type="text" />
-                    <input type="text" />
-                    <button></button>
+                    <Input />
+                    <button>Entrar</button>
                 </div>
             </div>
         </div>
