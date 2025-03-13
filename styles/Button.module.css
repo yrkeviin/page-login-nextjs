@@ -4,6 +4,13 @@
     justify-content: center;
 }
 
+.login a {
+    width: 55%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
 .login button {
     width: 45%;
     border: none;

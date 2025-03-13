@@ -4,7 +4,7 @@ import React from "react"
 export default function Button({text}) {
     return (
         <div className={styles.login}>
-            <button>{text}</button>
+            <a href="/profile"><button>{text}</button></a>
         </div>
     )
 }
