@@ -9,7 +9,7 @@ export default function Register() {
                 <div className={styles.register}>
                     <h1>register</h1>
                     <Input text="Nome de Usuário" />
-                    <Input text="E-mail" tipo="text" />
+                    <Input text="E-mail" tipo="email" />
                     <Input text="Senha" tipo="password" />
                     <Input text="Confirme a senha" tipo="password" />
                     <p><a href="/">Já tem uma conta? Entre agora!</a></p>
