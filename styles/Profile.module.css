@@ -1,0 +1,18 @@
+.container_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    margin: 3% auto;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.foto_perfil {
+    width: 45%;
+}
+
+.foto_perfil img {
+    width: 100%;
+    border-radius: 50%;
+}
