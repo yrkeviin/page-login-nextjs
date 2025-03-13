@@ -1,5 +1,4 @@
 import styles from "../styles/Button.module.css"
-import React from "react"
 
 export default function Button({text}) {
     return (
