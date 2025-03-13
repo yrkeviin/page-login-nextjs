@@ -1,18 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+    --primary-color: #67a8cd;
+    --secondary-color: #8dbeda;
+    --tertiary-color--: #357599;
+*/
+
 .container_profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
     margin: 3% auto;
     width: 30%;
     border: 1px solid black;
+    font-family: "Poppins", sans-serif;
+    background-color: #8dbeda;
 }
 
 .foto_perfil {
     width: 45%;
+    margin: 5% auto;
 }
 
 .foto_perfil img {
     width: 100%;
     border-radius: 50%;
+}
+
+.nome {
+    font-size: 1.2rem;
+    margin: 1% 0;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.nome p {
+    font-size: .9rem;
+}
+
+.redes_sociais a {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    margin: 2% auto;
+    margin-top: 7%;
+}
+
+.redes_sociais a img {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.habilidades {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.habilidades h2 {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.habilidades ul {
+    list-style: none;
+    font-size: .9rem;
+}
+
+.experiencia {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experiencia h2 {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.experiencia ul {
+    list-style: none;
+    font-size: .9rem;
+}
+
+.contato {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato h2 {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.contato ul {
+    list-style: none;
+    font-size: .9rem;
+}
+
+.voltar {
+    display: flex;
+    justify-content: right;
+    margin: 5% 0;
 }
