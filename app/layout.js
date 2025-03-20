@@ -8,5 +8,5 @@ import "../styles/globals.css";
 						<body>{children}</body>
 					</html>
 );
-      }
+    }
 

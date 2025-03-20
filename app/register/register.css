@@ -35,3 +35,50 @@
     justify-content: right;
     text-decoration: none;
 }
+
+.register input {
+    background-color: white;
+    color: #ffffff;
+    width: 90%;
+    padding: 0 1%;
+    color: black;
+    border: 1px solid white;
+    height: 5vh;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    outline: none;
+    margin-top: 5%;
+}
+
+.register a {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.register button {
+    width: 45%;
+    border: none;
+    margin-top: 5%;
+    height: 4vh;
+    background-color: lightblue;
+    outline: none;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    margin-bottom: 3%;
+}
+
+.register button a {
+    text-decoration: none;
+    color: black;
+}
+
+.register button:hover {
+    background-color: rgb(124, 222, 255);
+    scale: 1.1;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+}
