@@ -5,6 +5,9 @@
     --secondary-color: #8dbeda;
     --tertiary-color--: #357599;
 */
+body {
+    background-color: white;
+}
 
 .container_profile {
     display: flex;
