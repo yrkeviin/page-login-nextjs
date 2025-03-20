@@ -23,10 +23,10 @@ export default function Profile() {
                     <h2>Habilidades</h2>
 
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>Next.js</li>
+                        <li>HTML</li> <img src="html.png" alt="" />
+                        <li>CSS</li> <img src="https://logospng.org/download/css-3/logo-css-3-2048.png" alt="" />
+                        <li>React</li> <img src="react.png" alt="" />
+                        <li>Next.js</li> <img src="next.png" alt="" />
                     </ul>
                 </div>
 
